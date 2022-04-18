@@ -19,8 +19,8 @@ public class ModBlocks {
         public static final DeferredRegister<Block> BLOCKs =
                 DeferredRegister.create(ForgeRegistries.BLOCKS, DragonsReforged.MOD_ID);
 
-        public static final RegistryObject<Block> COBALT_BLOCK = registerBlock("cobalt_block",
-                () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(5f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_BUILDING_BLOCKS);
+        //public static final RegistryObject<Block> COBALT_BLOCK = registerBlock("cobalt_block",
+               // () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(5f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 
 

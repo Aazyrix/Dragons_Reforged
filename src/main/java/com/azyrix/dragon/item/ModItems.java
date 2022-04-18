@@ -13,7 +13,7 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, DragonsReforged.MOD_ID);
 
     public static final RegistryObject<Item> MELTED_OCEAN_SCALES = ITEMS.register("melted_ocean_scales",
-            ()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+            ()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TRANSPORTATION).stacksTo(16).fireResistant().defaultDurability(100)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
